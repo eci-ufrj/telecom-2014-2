@@ -171,5 +171,65 @@ Tamanho do bloco:
 , calcule o seu centroide.
 \end_layout
 
+\begin_layout Enumerate
+(Raphael) Mostre como é calculado o valor médio quadrático do errod e quantizaçã
+o; 
+\series bold
+ou, 
+\series default
+utilizando a transformada de Fourier, mostre qual é o valor de um trem de
+ pulsos em um instante 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+(Raphael) Um compositor deseja gravar uma música e por isso contratou você
+ para cuidar das questões técnicas.
+ Sabendo que ele usará um piano, um violão e um contra-baixo como instrumentos
+ musicais, cujas frequências mínimas e máximas são
+\begin_inset Formula $x_{min},x_{max},y_{min},y_{max},w_{min}\text{ e }w_{max}$
+\end_inset
+
+, respectivamente.
+ Nesse caso:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Escolha um 
+\series bold
+codificador
+\series default
+ apropriado para cada instrumento musical.
+\end_layout
+
+\begin_layout Itemize
+Explique o 
+\series bold
+motivo 
+\series default
+da sua escolha, com base na 
+\series bold
+faixa de frequências 
+\series default
+em que cada codificador opera.
+\end_layout
+
+\begin_layout Itemize
+Escolha alguns 
+\series bold
+parâmetros 
+\series default
+para cada codificador e calcule a sua 
+\series bold
+taxa de transmissão
+\series default
+.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
