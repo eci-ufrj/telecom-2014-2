@@ -95,7 +95,7 @@ Representante de turma e editor desse documento
 \end_layout
 
 \begin_layout Date
-Domingo, 28 de Setembro de 2014
+Segunda, 29 de Setembro de 2014
 \end_layout
 
 \begin_layout Abstract
@@ -172,7 +172,7 @@ Tamanho do bloco:
 \end_layout
 
 \begin_layout Enumerate
-(Raphael) Mostre como é calculado o valor médio quadrático do errod e quantizaçã
+(Raphael) Mostre como é calculado o valor médio quadrático do erro de quantizaçã
 o; 
 \series bold
 ou, 
@@ -189,12 +189,11 @@ utilizando a transformada de Fourier, mostre qual é o valor de um trem de
 (Raphael) Um compositor deseja gravar uma música e por isso contratou você
  para cuidar das questões técnicas.
  Sabendo que ele usará um piano, um violão e um contra-baixo como instrumentos
- musicais, cujas frequências mínimas e máximas são
+ musicais, cujas frequências mínimas e máximas são 
 \begin_inset Formula $x_{min},x_{max},y_{min},y_{max},w_{min}\text{ e }w_{max}$
 \end_inset
 
-, respectivamente.
- Nesse caso:
+, respectivamente:
 \end_layout
 
 \begin_deeper
@@ -203,7 +202,7 @@ Escolha um
 \series bold
 codificador
 \series default
- apropriado para cada instrumento musical.
+ apropriado para cada instrumento musical;
 \end_layout
 
 \begin_layout Itemize
@@ -215,7 +214,7 @@ da sua escolha, com base na
 \series bold
 faixa de frequências 
 \series default
-em que cada codificador opera.
+em que cada codificador opera;
 \end_layout
 
 \begin_layout Itemize
@@ -231,5 +230,89 @@ taxa de transmissão
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+(Marcelo) Determine a taxa de transmissão de um codificador 
+\series bold
+CELP
+\series default
+ com os seguintes parâmetros: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Gabarito: CBK Adp = 10 bits CBK Fixo= 11 bits Ganho Adp = 7 bits Ganho fixo
+ = 7 bits
+\end_layout
+
+\begin_layout Plain Layout
+TotalTaxa1: 200 x 35 = 7000 Obs: 200 porque esses blocos funcionam em blocos
+ de 5ms.
+ 1/(5x10^-3) = 200
+\end_layout
+
+\begin_layout Plain Layout
+ai's : 16x5 = 80 bits TotalTaxa2 = 80x40= 3200 Obs2: 40 porque esse bloco
+ é enviado a cada 20ms, 1/(20x10^-3) = 40
+\end_layout
+
+\begin_layout Plain Layout
+Taxa = 10.200 bits/seg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Frequência: 
+\begin_inset Formula $10\text{ kHz}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+CodeBook adaptativo: 1024
+\end_layout
+
+\begin_layout Itemize
+CodeBook fixo: 2048
+\end_layout
+
+\begin_layout Itemize
+Ganho adaptativo: 7 bits
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{i's}:$
+\end_inset
+
+ 
+\begin_inset Formula $M=16$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{1},\ldots,a_{16}:$
+\end_inset
+
+ 5 bits
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(Marcelo) Demonstre, de forma matemática, a transformação da multiplicação
+ no tempo
+\series bold
+ 
+\series default
+para a convolução na frequência, e a transformação da convolução no tempo
+ para a multiplicação na frequência.
+\end_layout
+
 \end_body
 \end_document
