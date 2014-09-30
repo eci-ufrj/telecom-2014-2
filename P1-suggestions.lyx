@@ -86,7 +86,7 @@ Thiago Perrotta
 status open
 
 \begin_layout Plain Layout
-Representante de turma e editor desse documento
+Representante de turma e editor desse documento.
 \end_layout
 
 \end_inset
@@ -116,8 +116,11 @@ Questões
 \end_layout
 
 \begin_layout Enumerate
-(Leonardo) Demonstre o cálculo da taxa de transmissão em um codificador
- LPC com as seguintes especificações:
+(Leonardo) Mostre o cálculo da 
+\series bold
+taxa de transmissão
+\series default
+ em um codificador LPC com a seguinte especificação:
 \end_layout
 
 \begin_deeper
@@ -151,7 +154,7 @@ Questões
 \end_layout
 
 \begin_layout Itemize
-Tamanho do bloco: 
+Tamanho de cada bloco: 
 \begin_inset Formula $20\text{ms}$
 \end_inset
 
@@ -172,13 +175,19 @@ Tamanho do bloco:
 \end_layout
 
 \begin_layout Enumerate
-(Raphael) Mostre como é calculado o valor médio quadrático do erro de quantizaçã
-o; 
+(Raphael) Mostre como pode ser calculado o 
+\series bold
+valor médio quadrático 
+\series default
+do erro de quantização; 
 \series bold
 ou, 
 \series default
-utilizando a transformada de Fourier, mostre qual é o valor de um trem de
- pulsos em um instante 
+utilizando a transformada de Fourier, mostre qual é o valor de um 
+\series bold
+trem de pulsos 
+\series default
+em um instante 
 \begin_inset Formula $t$
 \end_inset
 
@@ -316,7 +325,11 @@ para a convolução na frequência, e a transformação da convolução no tempo
 
 \begin_layout Enumerate
 (Pedro) Explique, utilizando argumentos matemáticos, o por que de um codificador
- PCM projetado para a voz humana, cuja frequência varia entre 
+ PCM projetado para a 
+\series bold
+voz humana
+\series default
+, cuja frequência varia entre 
 \begin_inset Formula $50\text{Hz}$
 \end_inset
 
@@ -324,8 +337,11 @@ para a convolução na frequência, e a transformação da convolução no tempo
 \begin_inset Formula $3\text{kHz}$
 \end_inset
 
-, não pode ser utilizado diretamente para codificar o som de uma guitarra
- elétrica, cuja frequência varia entre 
+, não pode ser utilizado diretamente para codificar o som de uma 
+\series bold
+guitarra elétrica
+\series default
+, cuja frequência varia entre 
 \begin_inset Formula $80\text{Hz}$
 \end_inset
 
@@ -337,8 +353,15 @@ para a convolução na frequência, e a transformação da convolução no tempo
 \end_layout
 
 \begin_layout Enumerate
-(Pedro) Como é possível adaptar o codificador da questão anterior para que
- ele consiga codificar o som da guitarra? Além disso, qual seria a distorção
+(Pedro) Como é possível 
+\series bold
+adaptar 
+\series default
+o codificador da questão anterior para que ele consiga codificar o som da
+ guitarra? Além disso, qual seria a 
+\series bold
+distorção
+\series default
  esperada do mesmo nesse caso?
 \end_layout
 
