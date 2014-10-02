@@ -95,7 +95,7 @@ Representante de turma e editor desse documento.
 \end_layout
 
 \begin_layout Date
-Segunda, 29 de Setembro de 2014
+Quinta, 02 de Outubro de 2014
 \end_layout
 
 \begin_layout Abstract
@@ -363,6 +363,123 @@ o codificador da questão anterior para que ele consiga codificar o som da
 distorção
 \series default
  esperada do mesmo nesse caso?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+1) Mostre como se chega a forma matricial das equações normais utilizadas
+ para obtenção dos coeficientes de predição linear.
+ Apresente as características da matriz de Toeplitz e diga qual sua importância
+ para esta forma matricial.
+\end_layout
+
+\begin_layout Plain Layout
+2) Por que a quantização vetorial reduz a quantidade de bits transmitidos
+ no caso de um codificador DPCM? Apresente um diagrama de blocos com e outro
+ sem quantização vetorial para o codificador e decodificador DPCM, ressaltando
+ quais grandezas são transmitidas em cada caso.
+\end_layout
+
+\begin_layout Plain Layout
+3) Provar que Transformada{s(t)p(t)} = s(f)*p(f) ou F{s(t)*p(t)} = s(f).p(f)
+\end_layout
+
+\begin_layout Plain Layout
+4) Discorra, detalhadamente, sobre o processo de amostragem de um sinal,
+ justificando ao final a conformidade da taxa de Nyquist.
+ O resto está Q1da prova de 2011.
+\end_layout
+
+\begin_layout Plain Layout
+5) Para um decodificador CELP, desenhe seu diagrama de blocos e calcule
+ a taxa de transmissão do sistema, sabendo que fs = 10KHz, ambos codebooks
+ tem tamanho 1024, ambos os ganhos tem tamanho 7 bit, sendo este bloco transmiti
+do a cada 5 ms ais de 5 bits, M = 10, sendo este bloco transmitido a cada
+ 20 ms.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mostre como se chega à forma matricial das 
+\series bold
+equações normais 
+\series default
+utilizadas para obtenção dos 
+\series bold
+coeficientes de predição linear
+\series default
+.
+ Apresente as características da matriz de Toeplitz e diga qual sua importância
+ para esta forma matricial.
+\end_layout
+
+\begin_layout Enumerate
+Por que a 
+\series bold
+quantização vetorial
+\series default
+ reduz a quantidade de bits transmitidos no caso de um codificador 
+\series bold
+DPCM? 
+\series default
+Apresente um diagrama de blocos com e outro sem quantização vetorial para
+ o codificador e decodificador DPCM, ressaltando quais grandezas são transmitida
+s em cada caso.
+\end_layout
+
+\begin_layout Enumerate
+Prove que 
+\begin_inset Formula $F\{S(t)\cdot P(t)\}=S(f)\ast P(f)$
+\end_inset
+
+, ou que 
+\begin_inset Formula $F\{S(t)\ast P(t)\}=S(f)\cdot P(f)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Discorra, detalhadamente, sobre o processo de amostragem de um sinal, justifican
+do no final a conformidade da taxa de Nyquist.
+\end_layout
+
+\begin_layout Enumerate
+Para um decodificador CELP, desenhe seu diagrama de blocos e calcula a taxa
+ de transmissão do sistema, sabendo que 
+\begin_inset Formula $F_{s}=10kHz$
+\end_inset
+
+, ambos os codebooks (adaptativo e fixo) têm tamanho 1024, ambos os ganhos
+ têm tamanho de 7 bits, sendo este bloco transmitido a cada 5 
+\begin_inset Formula $ms$
+\end_inset
+
+.
+ Já os 
+\begin_inset Formula $a_{i}'s$
+\end_inset
+
+ tem 5 bits cada, 
+\begin_inset Formula $M=10$
+\end_inset
+
+, sendo que este bloco é transmitido a cada 
+\begin_inset Formula $20ms$
+\end_inset
+
+.
 \end_layout
 
 \end_body
